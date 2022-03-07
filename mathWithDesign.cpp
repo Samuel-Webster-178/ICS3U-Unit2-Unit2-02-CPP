@@ -13,14 +13,17 @@ int main() {
     int width;
     int area;
     int perimeter;
+
     // input
     std::cout << "Enter length of the rectangle in mm: ";
     std::cin >> length;
     std::cout << "Enter width of the rectangle in mm: ";
     std::cin >> width;
+
     // process
     area = length*width;
     perimeter = 2*(length+width);
+
     // output
     std::cout << "" << std::endl;
     std::cout << "Area is " << area << " mm²." << std::endl;
